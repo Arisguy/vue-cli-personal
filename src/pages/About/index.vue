@@ -39,13 +39,13 @@ export default {
     }
   },
   methods: {
-    //构造10万条数据
+    // 构造10万条数据
     getList () {
       for (let i = 0; i < 100000; i++) {
         this.listAll.push(`我是第${i}条数据呀`)
       }
     },
-    //计算可视区域数据
+    // 计算可视区域数据
     getShowList () {
       this.showNum = Math.ceil(this.contentHeight / this.itemHeight);  //可视区域最多出现的数据条数，值是小数的话往上取整，因为极端情况是第一条和最后一条都只显示一部分
       this.startIndex = Math.floor(this.scrollTop / this.itemHeight);   //可视区域第一条数据的索引
@@ -54,7 +54,7 @@ export default {
       const offsetY = this.scrollTop - (this.scrollTop % this.itemHeight);  //在这需要获得一个可以被itemHeight整除的数来作为item的偏移量，这样随机滑动时第一条数据都是完整显示的
       this.top = offsetY;
     },
-    //监听滚动事件，实时计算scrollTop
+    // 监听滚动事件，实时计算scrollTop
     scroll () {
       this.scrollTop = document.querySelector('.content_box').scrollTop;  //element.scrollTop方法可以获取到卷起的高度
       this.getShowList();
