@@ -27,8 +27,8 @@ export default {
   name: "list",
   data () {
     return {
-      listAll: [],  //所有数据
-      showList: [],  //可视区域显示的数据
+      listAll: [],  // 所有数据
+      showList: [],  // 可视区域显示的数据
       contentHeight: 500,  //可视区域高度
       itemHeight: 30,      //每条数据所占高度
       showNum: 0,  //可是区域显示的最大条数
