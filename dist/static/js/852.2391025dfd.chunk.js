@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvue_cli=self.webpackChunkvue_cli||[]).push([[852],{5852:(e,l,u)=>{u.r(l),u.d(l,{default:()=>a});var n=u(6252),c=(0,n._)("h1",null,"Home",-1),s=(0,n._)("h2",{class:"title"},"hello vue app",-1);const t={name:"Home"};const a=(0,u(3744).Z)(t,[["render",function(e,l,u,t,a,r){return(0,n.wg)(),(0,n.iD)(n.HY,null,[c,s],64)}]])}}]);
+//# sourceMappingURL=852.2391025dfd.chunk.js.map
